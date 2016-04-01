@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("images/bg.gif") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -313,6 +313,7 @@
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-color: rgba(50, 54, 57, 0.39);
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -672,10 +673,12 @@
 /* Footer */
 
 	#footer {
+		/*
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		*/
 		bottom: 0;
 		cursor: default;
 		height: 6em;
@@ -764,7 +767,7 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: 970px auto;
 			width: 4500px;
 		} }
 
@@ -846,7 +849,7 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: 970px auto;
 			width: 2250px;
 		} }
 
@@ -932,7 +935,7 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
+			background-size: 970px auto;
 			width: 900px;
 		}
 
@@ -1030,7 +1033,7 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size: 965.5px auto;
 			width: 1237.5px;
 		}
 
